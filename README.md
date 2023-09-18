@@ -9,5 +9,5 @@ s20_gubbins.sh: Will run gubbins on core_gene_alignment.aln from Panaroo. While 
 Specifically, Gubbins is not meant for species-wide analysis. It's meant for smaller clades (like how C. diff has 5 clades). I would recommend breaking your samples up somehow, possibly by a preliminary recombination-naive core SNP screen. I use it for all C. diff to match what's done in literature, but I wouldn't say it's a great idea.
 * One note: Gubbins does require at least 3 isolates to run. Either make your clades bigger or use references if you don't have enough.
 * This script will produce:
-* * a recombination-masked core gene alignment for phylogenetic tree construction
+  * a recombination-masked core gene alignment for phylogenetic tree construction
   * pairwise_distances.txt that lists the SNP distances between all samples in your clade, with SNPs from recombination regions masked out. 
