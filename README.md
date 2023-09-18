@@ -11,3 +11,5 @@ Specifically, Gubbins is not meant for species-wide analysis. It's meant for sma
 * This script will produce:
   * a recombination-masked core gene alignment for phylogenetic tree construction
   * pairwise_distances.txt that lists the SNP distances between all samples in your clade, with SNPs from recombination regions masked out. 
+
+ALSO: I still need to mess with the prefix tag in the initialy gubbins.py call. The way this is set up, you will get major errors if you try to array it out and run more than 1 gubbins at a time. 
